@@ -48,7 +48,11 @@ Seasonality spikes
 
 2.6.	Correlation matrix of service types
  <img width="940" height="804" alt="image" src="https://github.com/user-attachments/assets/603fdd59-cf5c-4a31-bd9b-fbadf232027a" />
-
+| Service Pair              | Correlation               |
+| ------------------------- | ------------------------- 
+| Light Rail ↔ Rapid Route  | 0.967 (nearly identical)  |
+| Local Route ↔ Rapid Route | 0.965 (nearly identical)  |
+| Local Route ↔ Light Rail  | 0.918 (highly correlated) |
 3. Forecasting model
    Used Catboost model to forecast the passengers for next 7 days.
 Test Set Performance:
