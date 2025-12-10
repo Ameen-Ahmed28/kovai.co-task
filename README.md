@@ -49,6 +49,12 @@ Seasonality spikes
 2.6.	Correlation matrix of service types
  <img width="940" height="804" alt="image" src="https://github.com/user-attachments/assets/603fdd59-cf5c-4a31-bd9b-fbadf232027a" />
 
-
+3. Forecasting model
+   Used Catboost model to forecast the passengers for next 7 days.
+Test Set Performance:
+  MAE:        3,064 passengers
+  RMSE:       5,823 passengers
+  MAPE:       135.2%
+  R²:         0.880
 
 
